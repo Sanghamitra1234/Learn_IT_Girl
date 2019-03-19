@@ -1,0 +1,61 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greet",
+        "text": "Hello"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Goodbye"
+      },
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "heya"
+      },
+      {
+        "intent": "greet",
+        "text": "howdy"
+      },
+      {
+        "intent": "greet",
+        "text": "hey there"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "goodbye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see ya"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see you later"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": []
+  }
+}
