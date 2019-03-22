@@ -26,3 +26,11 @@ A DIFFERENT ALTERNATIVE TO THAT (USING ANACONDA)
      ** python -m spacy download en
 then RUN 
 ** python nlu_model.py
+
+##ONLINE AND OFFLINE TRAINING OF DIALOGUE MODELS
+
+1. RUN THE FILE TRAIN_INIT.PY
+ ** python train_init.py
+
+2. RUN THE FILE TRAIN_ONLINE.PY
+**python train_online.py

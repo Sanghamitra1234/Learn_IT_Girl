@@ -1,0 +1,58 @@
+%YAML 1.1
+---
+actions:
+- utter_greet
+- utter_goodbye
+config:
+  store_entities_as_slots: true
+entities: []
+forms: []
+intents:
+- greet:
+    use_entities: true
+- goodbye:
+    use_entities: true
+slots: {}
+templates:
+  utter_goodbye:
+  - text: '-'
+  - text: "'"
+  - text: H
+  - text: o
+  - text: p
+  - text: e
+  - text: ' '
+  - text: t
+  - text: o
+  - text: ' '
+  - text: s
+  - text: e
+  - text: e
+  - text: ' '
+  - text: y
+  - text: o
+  - text: u
+  - text: ' '
+  - text: s
+  - text: o
+  - text: o
+  - text: n
+  - text: '!'
+  - text: "'"
+  - text: ' '
+  - text: '-'
+  - text: "'"
+  - text: G
+  - text: o
+  - text: o
+  - text: d
+  - text: B
+  - text: y
+  - text: e
+  - text: ' '
+  - text: ':'
+  - text: (
+  - text: "'"
+  utter_greet:
+  - text: Hello, how can I help you?
+  - text: Hi, I am here to help.
