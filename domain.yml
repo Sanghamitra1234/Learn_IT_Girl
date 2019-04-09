@@ -1,11 +1,19 @@
 %YAML 1.1
 ---
+slots:
+ location:
+  type:text
 actions:
 - utter_goodbye
 - utter_greet
+- utter_ask_location
+- utter_inform
 intents:
 - greet
 - goodbye
+- inform_weather
+entities:
+- location
 templates:
   utter_goodbye:
   - text: '-'
@@ -49,3 +57,5 @@ templates:
   utter_greet:
   - text: Hello, how can I help you?
   - text: Hi, I am here to help.
+  utter_ask_location:
+    - 'In what location?
