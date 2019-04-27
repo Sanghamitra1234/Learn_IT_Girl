@@ -3,56 +3,30 @@
 actions:
 - utter_greet
 - utter_goodbye
+- utter_ask_location
+- action_weather
 config:
   store_entities_as_slots: true
-entities: []
+entities:
+- location
 forms: []
 intents:
 - greet:
     use_entities: true
 - goodbye:
     use_entities: true
-slots: {}
+- inform:
+    use_entities: true
+slots:
+  location:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
 templates:
+  utter_ask_location:
+  - text: In what location?
   utter_goodbye:
-  - text: '-'
-  - text: "'"
-  - text: H
-  - text: o
-  - text: p
-  - text: e
-  - text: ' '
-  - text: t
-  - text: o
-  - text: ' '
-  - text: s
-  - text: e
-  - text: e
-  - text: ' '
-  - text: y
-  - text: o
-  - text: u
-  - text: ' '
-  - text: s
-  - text: o
-  - text: o
-  - text: n
-  - text: '!'
-  - text: "'"
-  - text: ' '
-  - text: '-'
-  - text: "'"
-  - text: G
-  - text: o
-  - text: o
-  - text: d
-  - text: B
-  - text: y
-  - text: e
-  - text: ' '
-  - text: ':'
-  - text: (
-  - text: "'"
+  - text: Talk to you later.
+  - text: Bye bye :(
   utter_greet:
-  - text: Hello, how can I help you?
-  - text: Hi, I am here to help.
+  - text: Hello! How can I help?

@@ -1,64 +1,24 @@
 %YAML 1.1
 ---
-slots:
- location:
-  type : text
-  
 actions:
+- utter_ask_location
 - utter_goodbye
 - utter_greet
-- utter_ask_location
 - action_weather
-
-intents:
-- greet
-- goodbye
-- inform_weather
-
 entities:
 - location
+intents:
+- greet
+- inform
+- goodbye
+slots:
+  location:
+    type: text
 templates:
-  utter_goodbye:
-  - text: '-'
-  - text: "'"
-  - text: H
-  - text: o
-  - text: p
-  - text: e
-  - text: ' '
-  - text: t
-  - text: o
-  - text: ' '
-  - text: s
-  - text: e
-  - text: e
-  - text: ' '
-  - text: y
-  - text: o
-  - text: u
-  - text: ' '
-  - text: s
-  - text: o
-  - text: o
-  - text: n
-  - text: '!'
-  - text: "'"
-  - text: ' '
-  - text: '-'
-  - text: "'"
-  - text: G
-  - text: o
-  - text: o
-  - text: d
-  - text: B
-  - text: y
-  - text: e
-  - text: ' '
-  - text: ':'
-  - text: (
-  - text: "'"
-  utter_greet:
-  - text: Hello, how can I help you?
-  - text: Hi, I am here to help.
   utter_ask_location:
-  - 'In what location?'
+  - text: In what location?
+  utter_goodbye:
+  - text: Talk to you later.
+  - text: Bye bye :(
+  utter_greet:
+  - text: Hello! How can I help?

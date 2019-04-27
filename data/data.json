@@ -7,11 +7,23 @@
         "entities": []
       },
       {
-        "text": "Goodbye",
+        "text": "goodbye",
         "intent": "goodbye",
         "entities": []
       },
       {
+        "text": "What's the weather in Berlin at the moment?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 22,
+            "end": 28,
+            "value": "Berlin",
+            "entity": "location"
+          }
+        ]
+      },
+    {
         "text": "hey",
         "intent": "greet",
         "entities": []
@@ -67,107 +79,160 @@
         "entities": []
       },
       {
-        "text": "What is the weather in Bhubaneswar at the moment",
-        "intent": "inform_weather",
-        "entities": [
-          {
-            "start": 23,
-            "end": 35,
-            "value": "Bhubaneswar ",
-            "entity": "location"
-          }
-        ]
+        "text": "What's the weather today?",
+        "intent": "inform",
+        "entities": []
       },
       {
-        "text": "What is the weather in Delhi?",
-        "intent": "inform_weather",
+        "text": "What's the weather in London today?",
+        "intent": "inform",
         "entities": [
           {
-            "start": 23,
+            "start": 22,
             "end": 28,
-            "value": "Delhi",
+            "value": "London",
             "entity": "location"
           }
         ]
       },
       {
-        "text": "I am going to Mumbai tomorrow, What is the weather there ?",
-        "intent": "inform_weather",
+        "text": "Show me what's the weather in Paris",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 30,
+            "end": 35,
+            "value": "Paris",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I wonder what is the weather in Vilnius right now?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 32,
+            "end": 39,
+            "value": "Vilnius",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "what is the weather?",
+        "intent": "inform",
+        "entities": []
+      },
+      {
+        "text": "Tell me the weather",
+        "intent": "inform",
+        "entities": []
+      },
+      {
+        "text": "Is the weather nice in Barcelona today?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 23,
+            "end": 32,
+            "value": "Barcelona",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I am going to London today and I wonder what is the weather out there?",
+        "intent": "inform",
         "entities": [
           {
             "start": 14,
             "end": 20,
-            "value": "Mumbai",
+            "value": "London",
             "entity": "location"
           }
         ]
       },
       {
-        "text": "What is the weather?",
-        "intent": "inform_weather",
-        "entities": []
-      },
-      {
-        "text": "Tell me the weather?",
-        "intent": "inform_weather",
-        "entities": []
-      },
-      {
-        "text": "Is the weather cold in Mizoram today ?",
-        "intent": "inform_weather",
+        "text": "I am planning my trip to Amsterdam. What is the weather out there?",
+        "intent": "inform",
         "entities": [
           {
-            "start": 23,
-            "end": 30,
-            "value": "Mizoram",
+            "start": 25,
+            "end": 34,
+            "value": "Amsterdam",
             "entity": "location"
           }
         ]
       },
       {
-        "text": "Show me the weather in Berlin , please?",
-        "intent": "inform_weather",
+        "text": "Show me the weather in Dublin, please",
+        "intent": "inform",
         "entities": [
           {
             "start": 23,
             "end": 29,
-            "value": "Berlin",
+            "value": "Dublin",
             "entity": "location"
           }
         ]
       },
       {
-        "text": "Let me know about the weather in Amsterdam ?",
-        "intent": "inform_weather",
+        "text": "in London",
+        "intent": "inform",
         "entities": [
           {
-            "start": 33,
-            "end": 43,
-            "value": "Amsterdam ",
-            "entity": "location"
-          }
-        ]
-      },
-      {
-        "text": "in Italy ?",
-        "intent": "inform_weather",
-        "entities": [
-          {
-            "start": 2,
+            "start": 3,
             "end": 9,
-            "value": " Italy ",
+            "value": "London",
             "entity": "location"
           }
         ]
       },
       {
-        "text": "Oh ! Sorry in London ",
-        "intent": "inform_weather",
+        "text": "Lithuania",
+        "intent": "inform",
         "entities": [
           {
-            "start": 13,
-            "end": 21,
-            "value": " London ",
+            "start": 0,
+            "end": 9,
+            "value": "Lithuania",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Oh, sorry, in Italy",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 14,
+            "end": 19,
+            "value": "Italy",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Tell me the weather in Vilnius",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 23,
+            "end": 30,
+            "value": "Vilnius",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "The weather condition in Italy",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 25,
+            "end": 30,
+            "value": "Italy",
             "entity": "location"
           }
         ]

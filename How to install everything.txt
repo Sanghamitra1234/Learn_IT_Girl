@@ -34,3 +34,10 @@ then RUN
 
 2. RUN THE FILE TRAIN_ONLINE.PY
 **python train_online.py
+
+#For new verion acc to documenatation
+Make sure the custom actions server is running:
+**python -m rasa_core_sdk.endpoint --actions actions
+
+Start the online training session by running in a different terminal:
+**python train_online.py
