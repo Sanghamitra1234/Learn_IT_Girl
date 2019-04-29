@@ -1,7 +1,6 @@
 from __future__ import absolute_import
 from __future__ import division
 from __future__ import unicode_literals
-from secret import *
 
 from rasa_core_sdk import Action
 from rasa_core_sdk.events import SlotSet

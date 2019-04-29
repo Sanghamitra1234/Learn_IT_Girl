@@ -48,6 +48,7 @@
    - action_weather
 * goodbye
    - utter_goodbye
+   
 ## Generated Story -8776659078579334709
 * greet
     - utter_greet
@@ -113,4 +114,12 @@
     - slot{"location": "mumbai"}
     - action_weather
     - slot{"location": "mumbai"}
+
+## Generated Story 3074828454789179252
+* inform{"location": "Hyderabad"}
+    - slot{"location": "Hyderabad"}
+    - action_weather
+    - slot{"location": "Hyderabad"}
+* goodbye
+    - utter_goodbye
 
