@@ -24,8 +24,7 @@ class ActionWeather(Action):
         temperature_c = current['current']['humidity']
         humidity = current['current']['humidity']
 
-        response = """ It is currently {} in {} at the moment. 
-        The temperature is {} degrees.""" .format(condition, city, temperature_c)
+        response = """It is currently {} in {} at the moment.The temperature is {} degrees.""" .format(condition, city, temperature_c)
 
         dispatcher.utter_message(response)
         return [SlotSet('location', loc)]
